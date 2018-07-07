@@ -360,6 +360,7 @@
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
     <Compile Include="Assets\scripts\Load_PeriodicTable_Scene.cs" />
+    <Compile Include="Assets\scripts\LoadSceneByName.cs" />
     <Compile Include="Assets\scripts\StartandUpdate.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
