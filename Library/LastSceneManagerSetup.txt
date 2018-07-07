@@ -1,4 +1,1 @@
-sceneSetups:
-- path: Assets/UVU-VR-Lab v7-2 1800.unity
-  isLoaded: 1
-  isActive: 1
+sceneSetups: []
