@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Valve.VR;
 
 public class SteamVR_Teleporter : MonoBehaviour
 {
@@ -24,21 +25,21 @@ public class SteamVR_Teleporter : MonoBehaviour
 
 	void Start()
 	{
-		var trackedController = GetComponent<SteamVR_TrackedController>();
-		if (trackedController == null)
-		{
-			trackedController = gameObject.AddComponent<SteamVR_TrackedController>();
-		}
+		//var trackedController = GetComponent<Stea>();
+		//if (trackedController == null)
+		//{
+		//	//trackedController = gameObject.AddComponent<SteamVR_TrackedController>();
+		//}
 
-		trackedController.TriggerClicked += new ClickedEventHandler(DoClick);
+		//trackedController.TriggerClicked += new ClickedEventHandler(DoClick);
 
-		if (teleportType == TeleportType.TeleportTypeUseTerrain)
-		{
-			// Start the player at the level of the terrain
-			var t = reference;
-			if (t != null)
-				t.position = new Vector3(t.position.x, Terrain.activeTerrain.SampleHeight(t.position), t.position.z);
-		}
+		//if (teleportType == TeleportType.TeleportTypeUseTerrain)
+		//{
+		//	// Start the player at the level of the terrain
+		//	var t = reference;
+		//	if (t != null)
+		//		t.position = new Vector3(t.position.x, Terrain.activeTerrain.SampleHeight(t.position), t.position.z);
+		//}
 	}
 
 	void DoClick(object sender, ClickedEventArgs e)
