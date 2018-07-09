@@ -1,11 +1,67 @@
 fileFormatVersion: 2
-guid: 48cf612c9d06f1d40918ecbef6c88fe6
+guid: dcb67df9a01634028aab26e036db6c0f
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2186277476908879412: ImportLogs
+    100000: ceiling_light_box_1_1
+    100002: ceiling_light_box_2_1
+    100004: ceiling_light_box_3_1
+    100006: ceiling_light_box_4_1
+    100008: ceiling_lights
+    100010: CINEMA_4D_Editor
+    100012: flourescent_light_box
+    100014: flourescent_light_box_2
+    100016: flourescent_light_box_3
+    100018: flourescent_light_box_4
+    100020: flourescent_light_cover
+    100022: flourescent_light_cover_2
+    100024: flourescent_light_cover_3
+    100026: flourescent_light_cover_4
+    100028: //RootNode
+    100030: Lab_1_Objects
+    400000: ceiling_light_box_1_1
+    400002: ceiling_light_box_2_1
+    400004: ceiling_light_box_3_1
+    400006: ceiling_light_box_4_1
+    400008: ceiling_lights
+    400010: CINEMA_4D_Editor
+    400012: flourescent_light_box
+    400014: flourescent_light_box_2
+    400016: flourescent_light_box_3
+    400018: flourescent_light_box_4
+    400020: flourescent_light_cover
+    400022: flourescent_light_cover_2
+    400024: flourescent_light_cover_3
+    400026: flourescent_light_cover_4
+    400028: //RootNode
+    400030: Lab_1_Objects
+    2000000: CINEMA_4D_Editor
+    2100000: white metal
+    2100002: flourescent light
+    2300000: flourescent_light_box
+    2300002: flourescent_light_box_2
+    2300004: flourescent_light_box_3
+    2300006: flourescent_light_box_4
+    2300008: flourescent_light_cover
+    2300010: flourescent_light_cover_2
+    2300012: flourescent_light_cover_3
+    2300014: flourescent_light_cover_4
+    3300000: flourescent_light_box
+    3300002: flourescent_light_box_2
+    3300004: flourescent_light_box_3
+    3300006: flourescent_light_box_4
+    3300008: flourescent_light_cover
+    3300010: flourescent_light_cover_2
+    3300012: flourescent_light_cover_3
+    3300014: flourescent_light_cover_4
+    4300000: flourescent_light_box
+    4300002: flourescent_light_cover
+    4300004: flourescent_light_box_2
+    4300006: flourescent_light_cover_2
+    4300008: flourescent_light_box_3
+    4300010: flourescent_light_cover_3
+    4300012: flourescent_light_box_4
+    4300014: flourescent_light_cover_4
   externalObjects: {}
   materials:
     importMaterials: 1
