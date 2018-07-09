@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/UVU-VR-Lab v7-2 1800.unity
+- path: Assets/Scenes/BigPencil_Scene.unity
   isLoaded: 1
   isActive: 1
