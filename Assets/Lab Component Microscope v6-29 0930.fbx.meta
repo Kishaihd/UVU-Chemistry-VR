@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: d7b027b69700b4c67b6f8c8847f252ef
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: base
+    100002: base_extension_mount
+    100004: CINEMA_4D_Editor
+    100006: eyepiece
+    100008: feet
+    100010: foot_1
+    100012: foot_2
+    100014: foot_3
+    100016: foot_4
+    100018: //RootNode
+    100020: Lab_1_Objects
+    100022: large_side_knob_1
+    100024: large_side_knob_2
+    100026: lens_1
+    100028: lens_1_1
+    100030: lens_1_2
+    100032: lens_1_3
+    100034: lens_swivel
+    100036: microscope
+    100038: off
+    100040: scope_lenses
+    100042: slot_opening
+    100044: small_side_knob_1
+    100046: small_side_knob_2
+    100048: top_mount
+    100050: view_table
+    100052: view_table_2
+    100054: view_table_adjuster_1
+    400000: base
+    400002: base_extension_mount
+    400004: CINEMA_4D_Editor
+    400006: eyepiece
+    400008: feet
+    400010: foot_1
+    400012: foot_2
+    400014: foot_3
+    400016: foot_4
+    400018: //RootNode
+    400020: Lab_1_Objects
+    400022: large_side_knob_1
+    400024: large_side_knob_2
+    400026: lens_1
+    400028: lens_1_1
+    400030: lens_1_2
+    400032: lens_1_3
+    400034: lens_swivel
+    400036: microscope
+    400038: off
+    400040: scope_lenses
+    400042: slot_opening
+    400044: small_side_knob_1
+    400046: small_side_knob_2
+    400048: top_mount
+    400050: view_table
+    400052: view_table_2
+    400054: view_table_adjuster_1
+    2000000: CINEMA_4D_Editor
+    2100000: black
+    2100002: No Name
+    2100004: glass
+    2100006: grey metal
+    2100008: white metal
+    2100010: brown
+    2300000: base
+    2300002: base_extension_mount
+    2300004: eyepiece
+    2300006: foot_1
+    2300008: foot_2
+    2300010: foot_3
+    2300012: foot_4
+    2300014: large_side_knob_1
+    2300016: large_side_knob_2
+    2300018: lens_1
+    2300020: lens_1_1
+    2300022: lens_1_2
+    2300024: lens_1_3
+    2300026: lens_swivel
+    2300028: off
+    2300030: slot_opening
+    2300032: small_side_knob_1
+    2300034: small_side_knob_2
+    2300036: top_mount
+    2300038: view_table_2
+    2300040: view_table_adjuster_1
+    3300000: base
+    3300002: base_extension_mount
+    3300004: eyepiece
+    3300006: foot_1
+    3300008: foot_2
+    3300010: foot_3
+    3300012: foot_4
+    3300014: large_side_knob_1
+    3300016: large_side_knob_2
+    3300018: lens_1
+    3300020: lens_1_1
+    3300022: lens_1_2
+    3300024: lens_1_3
+    3300026: lens_swivel
+    3300028: off
+    3300030: slot_opening
+    3300032: small_side_knob_1
+    3300034: small_side_knob_2
+    3300036: top_mount
+    3300038: view_table_2
+    3300040: view_table_adjuster_1
+    4300000: top_mount
+    4300002: eyepiece
+    4300004: view_table_2
+    4300006: slot_opening
+    4300008: view_table_adjuster_1
+    4300010: large_side_knob_1
+    4300012: large_side_knob_2
+    4300014: small_side_knob_1
+    4300016: small_side_knob_2
+    4300018: base_extension_mount
+    4300020: base
+    4300022: off
+    4300024: foot_1
+    4300026: foot_2
+    4300028: foot_3
+    4300030: foot_4
+    4300032: lens_swivel
+    4300034: lens_1
+    4300036: lens_1_1
+    4300038: lens_1_2
+    4300040: lens_1_3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
