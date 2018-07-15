@@ -1,7 +1,10 @@
 ﻿////======= Copyright (c) Valve Corporation, All rights reserved. ===============
 //using UnityEngine;
 //using System.Collections;
+<<<<<<< HEAD
 //using Valve.VR;
+=======
+>>>>>>> movement
 
 //public struct PointerEventArgs
 //{
