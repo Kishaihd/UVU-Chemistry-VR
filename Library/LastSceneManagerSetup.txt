@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/UVU-VR-Lab v7-2 1800.unity
+- path: Assets/Scenes/PeriodicTable_Scene.unity
   isLoaded: 1
   isActive: 1
