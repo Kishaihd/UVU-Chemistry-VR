@@ -281,6 +281,11 @@ MonoBehaviour:
     y: 516
     width: 1087
     height: 315
+=======
+    y: 471
+    width: 831
+    height: 221
+>>>>>>> movement
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
@@ -505,18 +510,18 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000ee0e00004a0f0000800f00008c0f00009a0f00006c100000261100002e110000a2110000b6110000d4110000bc120000d81200009c130000b8130000c0130000ec130000f6140000241500003a150000601500007215000018160000281d0000ee1e0000021f00000e1f0000441f00001420000016200000182000003c2000009a200000b8200000e621000082220000a622000004240000e2240000262500003425000038250000b02500003a260000482600005c5400005e54000060540000625400006454000066540000685400006a5400006c5400006e54000070540000725400007454000076540000785400007a540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: _DS_Store
+      m_OriginalName: _DS_Store
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 8446
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
@@ -581,6 +586,12 @@ MonoBehaviour:
     y: 616
     width: 1083
     height: 294
+=======
+    x: 543
+    y: 574
+    width: 827
+    height: 200
+>>>>>>> movement
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -594,6 +605,12 @@ MonoBehaviour:
     m_HBaseRangeMax: 246.22223
     m_VBaseRangeMin: -138.5
     m_VBaseRangeMax: 138.5
+=======
+    m_HBaseRangeMin: -413.5
+    m_HBaseRangeMax: 413.5
+    m_VBaseRangeMin: -91.5
+    m_VBaseRangeMax: 91.5
+>>>>>>> movement
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -624,6 +641,12 @@ MonoBehaviour:
       y: -138.5
       width: 1083
       height: 277
+=======
+      x: -413.5
+      y: -91.5
+      width: 827
+      height: 183
+>>>>>>> movement
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
