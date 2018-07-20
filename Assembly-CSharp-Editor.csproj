@@ -389,6 +389,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="SimpleGif">
+      <HintPath>D:/Unity/Projects/UVU-Chemistry-VR/Assets/GifAssets/PowerGif/SimpleGif.dll</HintPath>
+    </Reference>
     <Reference Include="ProBuilderCore-Unity5">
       <HintPath>D:/Unity/Projects/UVU-Chemistry-VR/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>

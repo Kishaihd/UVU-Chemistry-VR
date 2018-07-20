@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: 1b3c528904b1cd348a3ad417a631661f
+guid: 78fafd0e387e79e47bf1eac8a9b69848
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: CINEMA_4D_Editor
     100002: //RootNode
@@ -70,8 +70,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

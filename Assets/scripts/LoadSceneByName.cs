@@ -1,17 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Load_BigPencil_Scene : MonoBehaviour {
-
-	// Use this for initialization
-	//void Start () {
-
-	//}
-
-    void LoadLevel(string levelName)
+public class LoadSceneByName : MonoBehaviour
+{
+    public void ChangeScene(string sceneName)
     {
-        Application.LoadLevel(name: levelName);
+        SceneManager.LoadScene(sceneName);
     }
-	
+    	
 }
