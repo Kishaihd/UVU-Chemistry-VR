@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 6653cbb8481248d4585b61bb00357578
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: 1
     100002: 1_10
@@ -2200,7 +2200,6 @@ ModelImporter:
     4300746: 2S2_Orbital
     4300748: 2Px_Orbital
     4300750: 2Py_Orbital
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -2252,6 +2251,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
