@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-﻿//using UnityEngine;
+/*﻿
+//using UnityEngine;
 //using System.Collections;
-=======
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using Valve.VR;
->>>>>>> movement
 
 //public class SteamVR_Teleporter : MonoBehaviour
 //{
@@ -28,7 +26,6 @@ using Valve.VR;
 //		}
 //	}
 
-<<<<<<< HEAD
 //	void Start()
 //	{
 //		var trackedController = GetComponent<SteamVR_TrackedController>();
@@ -123,3 +120,4 @@ using Valve.VR;
 //	}
 //}
 
+*/

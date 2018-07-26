@@ -1,10 +1,10 @@
 ﻿////======= Copyright (c) Valve Corporation, All rights reserved. ===============
 //using UnityEngine;
 //using System.Collections;
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 //using Valve.VR;
-=======
->>>>>>> movement
+//=======
+//>>>>>>> movement
 
 //public struct PointerEventArgs
 //{
@@ -143,3 +143,4 @@
 //        pointer.transform.localPosition = new Vector3(0f, 0f, dist/2f);
 //    }
 //}
+*/
