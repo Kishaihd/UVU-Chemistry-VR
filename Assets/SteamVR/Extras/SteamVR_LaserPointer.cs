@@ -1,10 +1,7 @@
 ﻿////======= Copyright (c) Valve Corporation, All rights reserved. ===============
-//using UnityEngine;
-//using System.Collections;
-<<<<<<< HEAD
-//using Valve.VR;
-=======
->>>>>>> movement
+using UnityEngine;
+using System.Collections;
+
 
 //public struct PointerEventArgs
 //{
@@ -17,8 +14,8 @@
 //public delegate void PointerEventHandler(object sender, PointerEventArgs e);
 
 
-//public class SteamVR_LaserPointer : MonoBehaviour
-//{
+public class SteamVR_LaserPointer : MonoBehaviour
+{
 //    public bool active = true;
 //    public Color color;
 //    public float thickness = 0.002f;
@@ -142,4 +139,4 @@
 //        }
 //        pointer.transform.localPosition = new Vector3(0f, 0f, dist/2f);
 //    }
-//}
+}
