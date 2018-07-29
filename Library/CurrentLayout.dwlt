@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 563}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 1
-  controlID: 179
+  controlID: 9
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 98
+  controlID: 10
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 99
+  controlID: 11
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -362,9 +362,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 104c0000
-    m_LastClickedID: 19472
-    m_ExpandedIDs: 16fbffff00000000104c0000
+    m_SelectedIDs: 2c2d0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 16fbffff00000000884c00004e4d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,19 +459,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SteamVR
-  m_ViewMode: 1
+    - Assets/SteamVR/Extras
+  m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SteamVR
+  - Assets/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ChemVR\Desktop\UVU-VR-Lab\UVU-Chemistry-VR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 44340000
-    m_LastClickedID: 13380
+    m_SelectedIDs: 76350000
+    m_LastClickedID: 13686
     m_ExpandedIDs: 0000000088310000e431000016320000243200003232000012330000c6330000ce3300003a340000503400006e3400005635000076350000403600005c360000663600008c36000096370000c4370000d83700000038000012380000b8380000e03f0000a4410000b8410000c441000000420000d0420000d4420000d6420000fc4200005443000072430000ac4400004845000068450000cc460000a8470000ec470000fc470000fe47000076480000fe4800000e490000b2530000b4530000b6530000b8530000ba530000bc530000be530000c0530000c2530000c4530000c6530000c8530000ca530000cc530000ce530000d053000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -500,23 +500,23 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000088310000e431000016320000243200003232000012330000c6330000ce3300003a340000503400006e3400005635000076350000403600005c360000663600008c36000096370000c4370000d83700000038000012380000b8380000e03f0000a4410000b8410000c441000000420000d0420000d4420000d6420000fc4200005443000072430000ac4400004845000068450000cc460000a8470000ec470000fc470000fe47000076480000fe4800000e490000b2530000b4530000b6530000b8530000ba530000bc530000be530000c0530000c2530000c4530000c6530000c8530000ca530000cc530000ce530000d0530000
+    m_ExpandedIDs: ffffffff000000008831000016320000243200003232000012330000c6330000ce3300003a34000044340000503400006e3400005635000076350000403600005c360000663600008c36000096370000c4370000d83700000038000012380000b8380000e03f0000a4410000b8410000c441000000420000d0420000d4420000d6420000fc4200005443000072430000ac4400004845000068450000cc460000a8470000d6470000ec470000fc470000fe47000076480000fe4800000e490000b2530000b4530000b6530000b8530000ba530000bc530000be530000c0530000c2530000c4530000c6530000c8530000ca530000cc530000ce530000d0530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Movement
+      m_OriginalName: Movement
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 12056
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
