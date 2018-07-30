@@ -5,7 +5,7 @@ using System.Collections;
 ﻿using UnityEngine;
 using System.Collections;
 using Valve.VR;
-
+/* still getting errors showing in compiler - commented out so could work on nav mesh 7-29 TES
 
 public class SteamVR_Teleporter : MonoBehaviour
 {
@@ -122,4 +122,4 @@ public class SteamVR_Teleporter : MonoBehaviour
 		}
 	}
 }
-
+*/
