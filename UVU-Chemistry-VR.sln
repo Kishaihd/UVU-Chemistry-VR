@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UVU-Chemistry-VR", "Assembly-CSharp.csproj", "{CF6E71EE-4CED-E9E4-7544-F2014D615466}"
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UVU-Chemistry-VR", "UVU-Chemistry-VR.csproj", "{94C97382-5023-E782-CD37-38E2CBABB108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UVU-Chemistry-VR", "Assembly-CSharp-Editor.csproj", "{EFDA0198-31C5-F7D7-D987-7B3C22D5E82F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{07A21C90-D344-AE1A-8456-9910C203B41A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UVU-Chemistry-VR.Editor", "UVU-Chemistry-VR.Editor.csproj", "{88B09CA1-C051-DFFB-209B-054480AF7386}"
 EndProject
