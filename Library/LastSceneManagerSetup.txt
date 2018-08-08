@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ChemLab.unity
+- path: Assets/Scenes/BigPencil.unity
   isLoaded: 1
   isActive: 1
