@@ -476,13 +476,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!1001 &349535073
+--- !u!1001 &285720192
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114850512473401376, guid: 11bef83740ab02e498fb98a15090217a,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224639057441762422, guid: 11bef83740ab02e498fb98a15090217a,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -572,6 +577,26 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114850512473401376, guid: 11bef83740ab02e498fb98a15090217a,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: Lesson 4 - Hybridization
+      objectReference: {fileID: 0}
+    - target: {fileID: 114850512473401376, guid: 11bef83740ab02e498fb98a15090217a,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: Lesson 3 -VSEPR
+      objectReference: {fileID: 0}
+    - target: {fileID: 114850512473401376, guid: 11bef83740ab02e498fb98a15090217a,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: Lesson 2 - Isotopes
+      objectReference: {fileID: 0}
+    - target: {fileID: 114850512473401376, guid: 11bef83740ab02e498fb98a15090217a,
+        type: 2}
+      propertyPath: m_Options.m_Options.Array.data[0].m_Text
+      value: Lesson 1 - Atomic Structure
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11bef83740ab02e498fb98a15090217a, type: 2}
