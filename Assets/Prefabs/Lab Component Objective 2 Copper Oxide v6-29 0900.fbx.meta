@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: b9534627330ca44eba78bd1774238744
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: CINEMA_4D_Editor
     100002: copper_oxide_shavings_0_1
@@ -22,6 +22,7 @@ ModelImporter:
     3300002: petri_dish
     4300000: copper_oxide_shavings_0_1
     4300002: petri_dish
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -73,6 +74,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

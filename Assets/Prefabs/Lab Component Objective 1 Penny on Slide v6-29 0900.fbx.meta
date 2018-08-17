@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 814217ab7ceb0428cb46ee061da95e13
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: CINEMA_4D_Editor
     100002: glass_slide_1
@@ -22,6 +22,7 @@ ModelImporter:
     3300002: penny
     4300000: penny
     4300002: glass_slide_1
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -73,6 +74,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

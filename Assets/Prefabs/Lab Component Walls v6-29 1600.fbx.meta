@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: b93eb8246b86a4fa4925581c659f1f00
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: CINEMA_4D_Editor
     100002: floor
@@ -29,6 +29,7 @@ ModelImporter:
     4300000: walls
     4300002: floor
     4300004: glass
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -80,6 +81,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 0986d10ba064c4c188e668b66b47ca7d
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: CINEMA_4D_Editor
     100002: holes_and_dimples
@@ -52,6 +52,7 @@ ModelImporter:
     4300010: tube_1
     4300012: rack_2
     4300014: holes_and_dimples
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -103,6 +104,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

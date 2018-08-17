@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 2ab0452c28c924df68a053d03c2b9591
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: base
     100002: CINEMA_4D_Editor
@@ -38,6 +38,7 @@ ModelImporter:
     4300002: handle_1
     4300004: handle_1_1
     4300006: spout
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -89,6 +90,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

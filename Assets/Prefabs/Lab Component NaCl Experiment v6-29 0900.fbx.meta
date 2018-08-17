@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 5d3ad6aa0db2445a0981fe7137a113c7
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: 1
     100002: 1_2
@@ -492,6 +492,7 @@ ModelImporter:
     4300164: clamp_2_2
     4300166: Digital_Thermometer
     4300168: equipment_stand
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -543,6 +544,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 8b7c76d11594a43338262d39b2274b94
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Apple_keyboard_Wireless_IGES_igs
     100002: CINEMA_4D_Editor
@@ -41,6 +41,7 @@ ModelImporter:
     4300004: Level_4
     4300006: Level_2
     4300008: Level_5
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -92,6 +93,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

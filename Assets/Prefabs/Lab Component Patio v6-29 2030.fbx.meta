@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: f4dbf329c3558422696aabbc665e16c0
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: CINEMA_4D_Editor
     100002: //RootNode
@@ -16,6 +16,7 @@ ModelImporter:
     2300000: patio
     3300000: patio
     4300000: patio
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -67,6 +68,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
