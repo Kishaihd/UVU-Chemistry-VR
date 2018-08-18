@@ -253,9 +253,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="SimpleGif">
-      <HintPath>Assets/GifAssets/PowerGif/SimpleGif.dll</HintPath>
-    </Reference>
     <Reference Include="ProBuilderCore-Unity5">
       <HintPath>Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
@@ -324,20 +321,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GifAssets\PowerGif\AnimatedImage.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Converter.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\ConvertTo8BitsExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\DecodeExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\DecodeParallelExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\DecodeProgressExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\EncodeExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\EncodeParallelExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\EncodeProgressExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\ExampleBase.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\PerformanceExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Examples\Scripts\PreviewExample.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\Gif.cs" />
-    <Compile Include="Assets\GifAssets\PowerGif\GifFrame.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
