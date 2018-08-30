@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 64494738441349714}
   m_Layer: 0
   m_Name: Scenery Panel 4
-  m_TagString: Untagged
+  m_TagString: Scenery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 64094658024025258}
   m_Layer: 0
   m_Name: Scenery Panel 2
-  m_TagString: Untagged
+  m_TagString: Scenery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 64141162939081470}
   m_Layer: 0
   m_Name: Scenery Panel 3
-  m_TagString: Untagged
+  m_TagString: Scenery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1ce3053020067a44806586dd57b6f6b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - centerLightPrefab: {fileID: 1706493671925316, guid: 72f7ecc26b6535c4cb5ff8ed955548e6,
+      type: 2}
+  - playerPrefab: {fileID: 1674580235074180, guid: b72d0fd0ebe325040a86fa6a99ad25c8,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
