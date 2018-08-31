@@ -21,9 +21,9 @@ public class AtomBuilder : MonoBehaviour {
     
     List<string> orbitalDescriptions = new List<string>();
     // On every addElectron() click, check the number, and adjust the shells accordingly.
-    public GameObject electronController;
-    public GameObject protonController;
-    public GameObject neutronController;
+    public GameObject electronController = null;
+    //public GameObject protonController = null;
+    //public GameObject neutronController = null;
 
     public int numElectrons = 0;
     public int numProtons   = 0;
