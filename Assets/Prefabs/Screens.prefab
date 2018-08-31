@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 23831399110804662}
   - component: {fileID: 64193013218423956}
   m_Layer: 9
-  m_Name: Screen_1
+  m_Name: Screen
   m_TagString: Interior_Screen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

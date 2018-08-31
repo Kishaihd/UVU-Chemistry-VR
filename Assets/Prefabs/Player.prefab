@@ -697,8 +697,8 @@ GameObject:
   - component: {fileID: 4738650193513500}
   - component: {fileID: 20084545326378956}
   - component: {fileID: 124908131491603818}
-  - component: {fileID: 114327316497946154}
   - component: {fileID: 114500027965587618}
+  - component: {fileID: 114928588224557694}
   m_Layer: 0
   m_Name: Camera (eye)
   m_TagString: MainCamera
@@ -1689,8 +1689,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1674580235074180}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.72, y: 3.26, z: 3.21}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -8.61, y: 3.26, z: 6.79}
   m_LocalScale: {x: 1, y: 1.25, z: 1}
   m_Children:
   - {fileID: 4921594734801524}
@@ -1705,7 +1705,7 @@ Transform:
   - {fileID: 4168238486045466}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &4772190634526272
 Transform:
   m_ObjectHideFlags: 1
@@ -1742,7 +1742,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1044244156125870}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.067, y: 0, z: 3.64}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4850539562185838}
@@ -1757,7 +1757,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1911193420651912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.067, y: 0, z: 3.64}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4088987228673894}
@@ -1841,7 +1841,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1095420039358442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.067, y: 0, z: 3.64}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4757788019429048}
@@ -2894,7 +2894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a86c1078ce4314b9c4224560e031b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vrcam: {fileID: 114327316497946154}
+  vrcam: {fileID: 0}
 --- !u!114 &114160217393279098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3015,7 +3015,7 @@ MonoBehaviour:
   targetListPolicy: {fileID: 0}
   navMeshData: {fileID: 0}
   navMeshLimitDistance: 0
-  snapToNearestFloor: 1
+  snapToNearestFloor: 0
   applyPlayareaParentOffset: 0
   customRaycast: {fileID: 0}
 --- !u!114 &114198351882581474
@@ -3183,20 +3183,6 @@ MonoBehaviour:
   maximumCursorScale: {x: Infinity, y: Infinity, z: Infinity}
   customTracer: {fileID: 0}
   customCursor: {fileID: 0}
---- !u!114 &114327316497946154
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1631305883416320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bca9ccf900ccc84c887d783321d27e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _head: {fileID: 4738650193513500}
-  _ears: {fileID: 4717986603379948}
-  wireframe: 0
 --- !u!114 &114343676466043464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3504,7 +3490,7 @@ MonoBehaviour:
   stepThicknessMultiplier: 0.5
   stepDropThreshold: 0.08
   customRaycast: {fileID: 0}
-  fallRestriction: 0
+  fallRestriction: 5
   gravityFallYThreshold: 1
   blinkYThreshold: 0.15
   floorHeightTolerance: 0.001
@@ -3868,6 +3854,20 @@ MonoBehaviour:
   startMenuAlias: 102
   touchModifier: 116
   hairTouchModifier: 104
+--- !u!114 &114928588224557694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1631305883416320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bca9ccf900ccc84c887d783321d27e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _head: {fileID: 4738650193513500}
+  _ears: {fileID: 4717986603379948}
+  wireframe: 0
 --- !u!114 &114948914912876396
 MonoBehaviour:
   m_ObjectHideFlags: 1

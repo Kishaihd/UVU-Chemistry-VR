@@ -1,6 +1,8 @@
 Library/**
 obj/**
+Temp/**
 Assets/AssetStoreTools**
+ProjectSettings/**
 ProjectSettings/UnityAdsSettings\.asset\.meta
 
 # VS Studio cache directory
