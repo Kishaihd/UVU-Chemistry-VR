@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class SceneSetUp : MonoBehaviour
@@ -10,6 +11,9 @@ public class SceneSetUp : MonoBehaviour
     public GameObject centerLightPrefab;
 
     public GameObject playerPrefab;
+
+    public GameObject giantPencilPrefab;
+    public GameObject giantPencilLightPrefab;
 
     public GameObject[] perimeterLightPrefabs;
     public GameObject[] perimeterLights;
@@ -23,13 +27,23 @@ public class SceneSetUp : MonoBehaviour
     public GameObject[] screenPrefabs;
     public GameObject[] screens;
 
-    public int buildindex { get; private set; }
+    public GameObject[] carbonLatticePrefabs;
+    public GameObject[] carbons;
+
+    private int sceneID;
+
+    //public int buildindex { get; private set; }
+
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
+        sceneID = SceneManager.GetActiveScene().buildIndex;
+
+        //Debug.Log("scene id:" + sceneID);
+
         CenterLight();
-        
+
         LabEquipment();
 
         Player();
@@ -38,18 +52,31 @@ public class SceneSetUp : MonoBehaviour
 
         Screen();
 
-        if (buildindex == 0)
+        if (sceneID == 0)
         {
             PerimeterLight();
         }
-	}
+
+        if (sceneID == 1)
+        {
+            GiantPencil();
+        }
+
+        if (sceneID == 2)
+        {
+            CarbonLattice();
+        }
+
+
+
+    }
 
     private void CenterLight()
     {
         Instantiate(centerLightPrefab, centerLightPrefab.transform.position, centerLightPrefab.transform.rotation);
         //Debug.Log("CenterLight on!");
     }
-        
+
     private void PerimeterLight()
     {
         perimeterLights = new GameObject[perimeterLightPrefabs.Length];
@@ -68,7 +95,7 @@ public class SceneSetUp : MonoBehaviour
             labEquipments[i] = Instantiate(labEquipmentPrefabs[i]) as GameObject;
             //Debug.Log("lab equipment #:" + i);
         }
-    } 
+    }
 
     private void Player()
     {
@@ -93,6 +120,23 @@ public class SceneSetUp : MonoBehaviour
         {
             scenerys[i] = Instantiate(sceneryPrefabs[i]) as GameObject;
             //Debug.Log("scenery:" + i);
+        }
+    }
+
+    private void GiantPencil()
+    {
+        Instantiate(giantPencilPrefab, giantPencilPrefab.transform.position, giantPencilPrefab.transform.rotation);
+        Instantiate(giantPencilLightPrefab, giantPencilLightPrefab.transform.position, giantPencilLightPrefab.transform.rotation);
+        //Debug.Log("pencil");
+    }
+
+    private void CarbonLattice()
+    {
+        carbons = new GameObject[carbonLatticePrefabs.Length];
+        for (int i = 0; i < carbonLatticePrefabs.Length; i++)
+        {
+            carbons[i] = Instantiate(carbonLatticePrefabs[i]) as GameObject;
+            //Debug.Log("carbon lattice object:" + i);
         }
     }
 }

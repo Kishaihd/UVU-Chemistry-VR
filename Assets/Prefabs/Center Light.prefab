@@ -25,7 +25,7 @@ GameObject:
   m_TagString: Center_Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4038101242489196
 Transform:
@@ -33,13 +33,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1706493671925316}
-  m_LocalRotation: {x: 0.6830127, y: -0.18301266, z: 0.18301266, w: 0.6830127}
-  m_LocalPosition: {x: -7.59, y: 10, z: 8.09}
+  m_LocalRotation: {x: 0.5532144, y: -0.36540452, z: 0.29353034, w: 0.6886751}
+  m_LocalPosition: {x: -12.16, y: 17.54, z: 13.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 77.55, y: -55.9, z: 0}
 --- !u!108 &108672473958855976
 Light:
   m_ObjectHideFlags: 1
@@ -50,7 +50,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1.73
+  m_Intensity: 2.36
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
