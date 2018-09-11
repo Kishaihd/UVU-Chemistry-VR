@@ -36,8 +36,8 @@ public class AtomBuilder : MonoBehaviour {
     void Start () {
         // Move 6 protons and 6 neutrons to the staging area.
         // Disable the [+]/[-] buttons for neutrons and protons.
-        _1s_orbital = GameObject.FindGameObjectWithTag("1sOrbital");
-        //_1s_orbital =              GameObject.FindGameObjectWithTag("1sOrbital"); //.Find("1S_Orbital_1");
+        //_1s_orbital = GameObject.FindGameObjectWithTag("1sOrbital");
+        _1s_orbital =              GameObject.FindGameObjectWithTag("1sOrbital"); //.Find("1S_Orbital_1");
         _1s2_orbital_inner_shell = GameObject.FindGameObjectWithTag("1s2OrbitalInnerShell"); //.Find("1S2_Orbital_Inner_Shell");
         _1s2_orbital_animated =    GameObject.FindGameObjectWithTag("1s2OrbitalAnimated"); //.Find("1S2_Orbital_Animated");
         _2px_orbital =             GameObject.FindGameObjectWithTag("2pxOrbital"); //.Find("2Px_Orbital_1");
