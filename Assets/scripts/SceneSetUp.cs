@@ -8,9 +8,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneSetUp : MonoBehaviour
 {
+    public GameObject eventSystemPrefab;
+    public GameObject sceneLoader;
     public GameObject centerLightPrefab;
+    public GameObject highlightScript;
 
     public GameObject playerPrefab;
+
+    public GameObject objectivesMenuPrefab;
+    public GameObject periodicTablePrefab;
 
     public GameObject giantPencilPrefab;
     public GameObject giantPencilLightPrefab;
@@ -19,7 +25,7 @@ public class SceneSetUp : MonoBehaviour
     public GameObject[] perimeterLights;
 
     public GameObject[] sceneryPrefabs;
-    public GameObject[] scenerys;
+    public GameObject[] scenery;
 
     public GameObject[] labEquipmentPrefabs;
     public GameObject[] labEquipments;
@@ -40,21 +46,31 @@ public class SceneSetUp : MonoBehaviour
     {
         sceneID = SceneManager.GetActiveScene().buildIndex;
 
-        //Debug.Log("scene id:" + sceneID);
+        EventSystem();
+
+        HighlightSystem();
+
+        SceneLoader();
 
         CenterLight();
 
         LabEquipment();
+
+        Objectives();
 
         Player();
 
         Scenery();
 
         Screen();
-
+        Debug.Log("Scene ID: ");
+        Debug.Log(sceneID);
+        
         if (sceneID == 0)
         {
+            Debug.Log("Scene ID: 0");
             PerimeterLight();
+            PeriodicTable();
         }
 
         if (sceneID == 1)
@@ -71,6 +87,21 @@ public class SceneSetUp : MonoBehaviour
 
     }
 
+    private void EventSystem()
+    {
+        Instantiate(eventSystemPrefab);
+    }
+
+    private void HighlightSystem()
+    {
+        Instantiate(highlightScript);
+    }
+
+    private void SceneLoader()
+    {
+        Instantiate(sceneLoader);
+    }
+
     private void CenterLight()
     {
         Instantiate(centerLightPrefab, centerLightPrefab.transform.position, centerLightPrefab.transform.rotation);
@@ -85,6 +116,16 @@ public class SceneSetUp : MonoBehaviour
             perimeterLights[i] = Instantiate(perimeterLightPrefabs[i]) as GameObject;
             //Debug.Log("perimeter light:" + i);
         }
+    }
+
+    private void PeriodicTable()
+    {
+        Instantiate(periodicTablePrefab); 
+    }
+
+    private void Objectives()
+    {
+        Instantiate(objectivesMenuPrefab);
     }
 
     private void LabEquipment()
@@ -115,10 +156,10 @@ public class SceneSetUp : MonoBehaviour
 
     private void Scenery()
     {
-        scenerys = new GameObject[sceneryPrefabs.Length];
+        scenery = new GameObject[sceneryPrefabs.Length];
         for (int i = 0; i < sceneryPrefabs.Length; i++)
         {
-            scenerys[i] = Instantiate(sceneryPrefabs[i]) as GameObject;
+            scenery[i] = Instantiate(sceneryPrefabs[i]) as GameObject;
             //Debug.Log("scenery:" + i);
         }
     }
