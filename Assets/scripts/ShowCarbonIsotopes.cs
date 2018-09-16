@@ -13,7 +13,6 @@ public class ShowCarbonIsotopes : MonoBehaviour {
     {
         double carbonEndingZAxis = -0.1;
         carbonMain.SetActive(true);
-        carbonMain.active = true;
         carbonIso1.SetActive(true);
         carbonIso2.SetActive(true);
 

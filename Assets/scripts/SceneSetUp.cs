@@ -9,9 +9,10 @@ using UnityEngine.SceneManagement;
 public class SceneSetUp : MonoBehaviour
 {
     public GameObject eventSystemPrefab;
-    public GameObject sceneLoader;
+    //public GameObject sceneLoader;
+    //public GameObject highlightScript;
+
     public GameObject centerLightPrefab;
-    public GameObject highlightScript;
 
     public GameObject playerPrefab;
 
@@ -37,7 +38,7 @@ public class SceneSetUp : MonoBehaviour
     public GameObject[] carbons;
 
     private int sceneID;
-
+    //private AssetBundle scenes;
     //public int buildindex { get; private set; }
 
 
@@ -48,9 +49,7 @@ public class SceneSetUp : MonoBehaviour
 
         EventSystem();
 
-        HighlightSystem();
-
-        SceneLoader();
+        //HighlightSystem();
 
         CenterLight();
 
@@ -92,15 +91,10 @@ public class SceneSetUp : MonoBehaviour
         Instantiate(eventSystemPrefab);
     }
 
-    private void HighlightSystem()
-    {
-        Instantiate(highlightScript);
-    }
-
-    private void SceneLoader()
-    {
-        Instantiate(sceneLoader);
-    }
+    //private void HighlightSystem()
+    //{
+    //    Instantiate(highlightScript);
+    //}
 
     private void CenterLight()
     {

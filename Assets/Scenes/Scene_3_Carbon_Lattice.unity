@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventSystemPrefab: {fileID: 1448803418637682, guid: bfa027d925e83ec43a865cb56f66ac3c,
     type: 2}
-  sceneLoader: {fileID: 1025850557718310, guid: 2385d2b4aaecc7a4d9cbb7a574bb3cb5,
+  highlightScript: {fileID: 1907698572449790, guid: 2bbbd4a393fdc9a4f8bc40e73c3a37b1,
     type: 2}
   centerLightPrefab: {fileID: 1706493671925316, guid: 72f7ecc26b6535c4cb5ff8ed955548e6,
     type: 2}
@@ -150,7 +150,7 @@ MonoBehaviour:
     type: 2}
   objectivesMenuPrefab: {fileID: 1018645078733832, guid: 603579afaa6c0aa478ef65a7fefdb39d,
     type: 2}
-  periodicTablePrefab: {fileID: 1479526947205102, guid: 7a5d1989f21656548a360ef891ae435b,
+  periodicTablePrefab: {fileID: 1745372002144780, guid: 8b36dfac301dfe84882dfe959cbcf0e3,
     type: 2}
   giantPencilPrefab: {fileID: 1938086160159996, guid: 87019b3e17353c949aa16c42d3944a19,
     type: 2}

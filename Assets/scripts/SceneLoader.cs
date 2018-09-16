@@ -5,12 +5,12 @@ public class SceneLoader : MonoBehaviour
 {
     void Start()
     {
-        Debug.Log("LoadScene");
+        //Debug.Log("LoadScene ");
     }
 
     public void LoadScene(string scenename)
     {
-        Debug.Log("sceneName to load: " + scenename);
+        Debug.Log("Loading \"" + scenename + "\"");
         SceneManager.LoadScene(scenename);
     }
 }
