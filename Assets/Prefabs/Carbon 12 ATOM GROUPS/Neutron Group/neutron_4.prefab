@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4605517421027422}
   - component: {fileID: 33186976120991668}
   - component: {fileID: 23657435650187238}
+  - component: {fileID: 95317311541131372}
   m_Layer: 0
   m_Name: neutron_4
   m_TagString: Untagged
@@ -34,13 +35,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1529244156397250}
-  m_LocalRotation: {x: 0, y: -0.19059743, z: -0, w: 0.9816683}
-  m_LocalPosition: {x: -23.914421, y: -14.127857, z: 4.766682}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.06420089, y: -0.17945929, z: 0.33066535, w: 0.9243014}
+  m_LocalPosition: {x: -0.80132806, y: 1.8190137, z: 9.2699995}
+  m_LocalScale: {x: 0.48714, y: 0.48714, z: 0.48714}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 13.731001, y: -17.326, z: 37.267002}
 --- !u!23 &23657435650187238
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -83,3 +84,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1529244156397250}
   m_Mesh: {fileID: 4300314, guid: 6653cbb8481248d4585b61bb00357578, type: 3}
+--- !u!95 &95317311541131372
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1529244156397250}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f32c5e8361f911746ac7531b783b69a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

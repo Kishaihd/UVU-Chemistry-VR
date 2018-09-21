@@ -264,8 +264,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventSystemPrefab: {fileID: 1448803418637682, guid: bfa027d925e83ec43a865cb56f66ac3c,
     type: 2}
-  highlightScript: {fileID: 1907698572449790, guid: 2bbbd4a393fdc9a4f8bc40e73c3a37b1,
-    type: 2}
   centerLightPrefab: {fileID: 1706493671925316, guid: 72f7ecc26b6535c4cb5ff8ed955548e6,
     type: 2}
   playerPrefab: {fileID: 1181159481841454, guid: 9ca43fec02bf9044993c1bca627a16c7,
@@ -343,6 +341,16 @@ MonoBehaviour:
   screens: []
   carbonLatticePrefabs: []
   carbons: []
+  carbon12AtomGroupPrefabs: []
+  carbon12s: []
+  electronGroupPrefabs: []
+  electrons: []
+  protonGroupPrefabs: []
+  protons: []
+  neutronGroupPrefabs: []
+  neutrons: []
+  specialLightPrefabs: []
+  specialLights: []
 --- !u!4 &743216574
 Transform:
   m_ObjectHideFlags: 0
