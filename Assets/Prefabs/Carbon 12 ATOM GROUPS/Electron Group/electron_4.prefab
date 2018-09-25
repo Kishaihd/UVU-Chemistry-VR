@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4824073225398656}
   - component: {fileID: 33934900031554980}
   - component: {fileID: 23746327450541420}
+  - component: {fileID: 95496433134183914}
   m_Layer: 0
   m_Name: electron_4
   m_TagString: Untagged
@@ -83,3 +84,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1146065223225050}
   m_Mesh: {fileID: 4300252, guid: 6653cbb8481248d4585b61bb00357578, type: 3}
+--- !u!95 &95496433134183914
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146065223225050}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 264deec05433f6140a9f0ddd69f854af, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
