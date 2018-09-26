@@ -19,6 +19,8 @@ public class SceneSetUp : MonoBehaviour
     public GameObject objectivesMenuPrefab;
     public GameObject periodicTablePrefab;
 
+    public GameObject particleBuilderMenuPrefab;
+
     public GameObject giantPencilPrefab;
     public GameObject giantPencilLightPrefab;
 
@@ -116,6 +118,9 @@ public class SceneSetUp : MonoBehaviour
 
         if (sceneID == 3)
         {
+
+            ParticleBuilder();
+
             Carbon12AtomGroup();
             ElectronGroup();
             ProtonGroup();
@@ -204,6 +209,11 @@ public class SceneSetUp : MonoBehaviour
             perimeterLights[i] = Instantiate(perimeterLightPrefabs[i]) as GameObject;
             //Debug.Log("perimeter light:" + i);
         }
+    }
+
+    private void ParticleBuilder()
+    {
+        Instantiate(particleBuilderMenuPrefab);
     }
 
     private void PeriodicTable()
