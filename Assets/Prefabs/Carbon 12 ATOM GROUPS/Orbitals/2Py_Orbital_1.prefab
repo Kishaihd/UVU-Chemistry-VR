@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4488183183362720}
   - component: {fileID: 33303537980460478}
   - component: {fileID: 23960290872286698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 2Py_Orbital_1
-  m_TagString: Untagged
+  m_TagString: 2pyOrbital
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

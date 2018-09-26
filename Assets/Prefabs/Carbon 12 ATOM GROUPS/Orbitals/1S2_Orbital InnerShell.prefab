@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4328689397748922}
   - component: {fileID: 33596526325467064}
   - component: {fileID: 23865466517158114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1S2_Orbital InnerShell
-  m_TagString: Untagged
+  m_TagString: 1s2OrbitalInnerShell
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

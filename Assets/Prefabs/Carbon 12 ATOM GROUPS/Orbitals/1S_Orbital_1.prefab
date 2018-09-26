@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4413639445072570}
   - component: {fileID: 33990633183307298}
   - component: {fileID: 23699674120584192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1S_Orbital_1
-  m_TagString: Untagged
+  m_TagString: 1sOrbital
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

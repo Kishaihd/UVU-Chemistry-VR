@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33664650158993648}
   - component: {fileID: 23932759002290988}
   - component: {fileID: 95547391663802366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 2S2_OrbitalAnimated
-  m_TagString: Untagged
+  m_TagString: 2s2OrbitalAnimated
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
