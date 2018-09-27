@@ -276,6 +276,20 @@ MonoBehaviour:
     type: 2}
   giantPencilLightPrefab: {fileID: 1134523646217164, guid: 506a4f9446a91c044ab90d3ae2bdf9f3,
     type: 2}
+  C12atomcenterlightISOPrefab: {fileID: 1514636934835052, guid: ba2cbe96758442947abd6cec47d391a8,
+    type: 2}
+  ones2OrbitalInnerPrefab: {fileID: 1927020270477870, guid: 71b3081d12a90d543ae329bca7f81a2b,
+    type: 2}
+  ones2OrbitalAnimatedPrefab: {fileID: 1747597250692270, guid: 0eed8fd38b332fe4d90de54f980ab091,
+    type: 2}
+  twos2OrbitalInnerPrefab: {fileID: 1542383108009994, guid: 51ecce6e06db4d749b0ac1bd2b97cecd,
+    type: 2}
+  twos2OrbitalAnimatedPrefab: {fileID: 1585795922614502, guid: d2cdd9e24941c9240bf6ebd059a15604,
+    type: 2}
+  twopxOrbitalPrefab: {fileID: 1876069520093002, guid: bbb74b8326621dd448cda48d0565760a,
+    type: 2}
+  twopyOrbitalPrefab: {fileID: 1480818517029344, guid: d6f7ed8f5aa2b0048a9fc8280cb4e261,
+    type: 2}
   perimeterLightPrefabs:
   - {fileID: 1329839824566382, guid: a4a688bd412d093468628850a33b75b3, type: 2}
   - {fileID: 1828931061448896, guid: f9a4b7c0b85afbd4791b2090c7106379, type: 2}
@@ -339,7 +353,14 @@ MonoBehaviour:
   - {fileID: 1988781974637432, guid: 9e11d7a5f0cc5a240ac91bda3499f95a, type: 2}
   - {fileID: 1145002781652136, guid: 9e11d7a5f0cc5a240ac91bda3499f95a, type: 2}
   screens: []
-  carbonLatticePrefabs: []
+  carbonLatticePrefabs:
+  - {fileID: 1539316675241138, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
+  - {fileID: 1132642748403208, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
+  - {fileID: 1134987274289526, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
+  - {fileID: 1565694128193924, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
+  - {fileID: 1201527591507882, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
+  - {fileID: 1201527591507882, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
+  - {fileID: 1723847521250806, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
   carbons: []
   carbon12AtomGroupPrefabs: []
   carbon12s: []
@@ -351,6 +372,8 @@ MonoBehaviour:
   neutrons: []
   specialLightPrefabs: []
   specialLights: []
+  neutronIsotopePrefabs: []
+  neutronIsotopes: []
 --- !u!4 &743216574
 Transform:
   m_ObjectHideFlags: 0

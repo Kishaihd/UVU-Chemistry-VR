@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneSetUp : MonoBehaviour
 {
+    private int SceneID;
+
     public GameObject eventSystemPrefab;
     //public GameObject sceneLoader;
     //public GameObject highlightScript;
@@ -97,84 +99,84 @@ public class SceneSetUp : MonoBehaviour
         Debug.Log(sceneID);    
 
         // I want to replace all of these if statements with the ienumerator section below but it is getting errors----------------------------------------
-        if (sceneID == 0)
-        {
-            //Debug.Log("Scene ID: 0");
-            PerimeterLight();
-            PeriodicTable();
-        }
+        //if (sceneID == 0)
+        //{
+        //    //Debug.Log("Scene ID: 0");
+        //    PerimeterLight();
+        //    PeriodicTable();
+        //}
 
-        if (sceneID == 1)
-        {
-            GiantPencil();
-        }
+        //if (sceneID == 1)
+        //{
+        //    GiantPencil();
+        //}
 
-        if (sceneID == 2)
-        {
-            CarbonLattice();
-        }
+        //if (sceneID == 2)
+        //{
+        //    CarbonLattice();
+        //}
 
-        if (sceneID == 3)
-        {
-            Carbon12AtomGroup();
-            ElectronGroup();
-            ProtonGroup();
-            NeutronGroup();
-            SpecialLights();
-        }
+        //if (sceneID == 3)
+        //{
+        //    Carbon12AtomGroup();
+        //    ElectronGroup();
+        //    ProtonGroup();
+        //    NeutronGroup();
+        //    SpecialLights();
+        //}
 
-        if (sceneID == 4)
-        {
-            SpecialLights();
-            Instantiate(C12atomcenterlightISOPrefab, C12atomcenterlightISOPrefab.transform.position, C12atomcenterlightISOPrefab.transform.rotation);
-            ProtonGroup();
-            ElectronIsotopes();
-            NeutronIsotopes();
+        //if (sceneID == 4)
+        //{
+        //    SpecialLights();
+        //    Instantiate(C12atomcenterlightISOPrefab, C12atomcenterlightISOPrefab.transform.position, C12atomcenterlightISOPrefab.transform.rotation);
+        //    ProtonGroup();
+        //    ElectronIsotopes();
+        //    NeutronIsotopes();
             
-        }
+        //}
         //-------------------end of if statements---- want to replace the above section with ienumerator or similar as shown below (SceneUniqueItems)------
 
     }
 
     ///* ---------- this section is the replacement for if statements above BUT it is getting c# errors that need to be fixed with ienumerator name and sceneid------
-    //IEnumerator SceneUniqueItems()
-    //{
-    //    switch (SceneID)
-    //    {
-    //        case 0;
-    //            PerimeterLight();
-    //            PeriodicTable();
-    //            break;
+ void SceneUniqueItems()
+    {
+        switch (SceneID)
+        {
+            case 0:
+                PerimeterLight();
+                PeriodicTable();
+                break;
 
-    //        case 1:
-    //            GiantPencil();
-    //            break;
+            case 1:
+                GiantPencil();
+                break;
 
-    //        case 2:
-    //            CarbonLattice();
-    //            break;
+            case 2:
+                CarbonLattice();
+                break;
 
-    //        case 3:
-    //            Carbon12AtomGroup();
-    //            ElectronGroup();
-    //            ProtonGroup();
-    //            NeutronGroup();
-    //            SpecialLights();
-    //            break;
+            case 3:
+                Carbon12AtomGroup();
+                ElectronGroup();
+                ProtonGroup();
+                NeutronGroup();
+                SpecialLights();
+                break;
 
-    //        case 4:
-    //            SpecialLights();
-    //            Instantiate(C12atomcenterlightISOPrefab, C12atomcenterlightISOPrefab.transform.position, C12atomcenterlightISOPrefab.transform.rotation);
-    //            ProtonGroup();
-    //            ElectronIsotopes();
-    //            NeutronIsotopes();
-    //            break;
+            case 4:
+                SpecialLights();
+                Instantiate(C12atomcenterlightISOPrefab, C12atomcenterlightISOPrefab.transform.position, C12atomcenterlightISOPrefab.transform.rotation);
+                ProtonGroup();
+                ElectronIsotopes();
+                NeutronIsotopes();
+                break;
 
-    //        default:
-    //            Debug.Log(sceneID);
-    //            break;
-    //    }
-    //}
+            default:
+                Debug.Log(sceneID);
+                break;
+        }
+    }
     //-----------end of replacement section that needs debugging help ------------*/
 
     private void EventSystem()
@@ -329,7 +331,7 @@ public class SceneSetUp : MonoBehaviour
         }
     }
 
-   IEnumerator ElectronIsotopes()
+   private void ElectronIsotopes()
     {
         electrons = new GameObject[electronGroupPrefabs.Length];
         for (int i = 0; i < electronGroupPrefabs.Length; i++)
@@ -346,7 +348,7 @@ public class SceneSetUp : MonoBehaviour
                         electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
                         Instantiate(ones2OrbitalInnerPrefab, ones2OrbitalInnerPrefab.transform.position, ones2OrbitalInnerPrefab.transform.rotation);
                         Instantiate(ones2OrbitalAnimatedPrefab, ones2OrbitalAnimatedPrefab.transform.position, ones2OrbitalAnimatedPrefab.transform.rotation);
-                        yield return new WaitForSeconds(2);
+                        WaitForSeconds(2);
                         Debug.Log(i);
                     break;
 
@@ -359,21 +361,21 @@ public class SceneSetUp : MonoBehaviour
                         electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
                         Instantiate(twos2OrbitalInnerPrefab, twos2OrbitalInnerPrefab.transform.position, twos2OrbitalInnerPrefab.transform.rotation);
                         Instantiate(twos2OrbitalAnimatedPrefab, twos2OrbitalAnimatedPrefab.transform.position, twos2OrbitalAnimatedPrefab.transform.rotation);
-                        yield return new WaitForSeconds(2);
+                        WaitForSeconds(2);
                         Debug.Log(i);
                     break;
 
                     case 4:
                         electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
                         Instantiate(twopxOrbitalPrefab, twopxOrbitalPrefab.transform.position, twopxOrbitalPrefab.transform.rotation);
-                        yield return new WaitForSeconds(2);
+                         WaitForSeconds(2);
                         Debug.Log(i);
                     break;
 
                     case 5:
                         electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
                         Instantiate(twopyOrbitalPrefab, twopyOrbitalPrefab.transform.position, twopyOrbitalPrefab.transform.rotation);
-                        yield return new WaitForSeconds(2);
+                        WaitForSeconds(2);
                         Debug.Log(i);
                     break;
 
@@ -383,5 +385,10 @@ public class SceneSetUp : MonoBehaviour
   
              }
         }
+    }
+
+    private IEnumerator WaitForSeconds(int n)
+    {
+        yield return new WaitForSecondsRealtime(n);
     }
 }

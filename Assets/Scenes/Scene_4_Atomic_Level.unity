@@ -349,6 +349,20 @@ MonoBehaviour:
     type: 2}
   giantPencilLightPrefab: {fileID: 1134523646217164, guid: 506a4f9446a91c044ab90d3ae2bdf9f3,
     type: 2}
+  C12atomcenterlightISOPrefab: {fileID: 1428333145706028, guid: 887cd257c6a073446b3d605ffa0949ab,
+    type: 2}
+  ones2OrbitalInnerPrefab: {fileID: 1927020270477870, guid: 71b3081d12a90d543ae329bca7f81a2b,
+    type: 2}
+  ones2OrbitalAnimatedPrefab: {fileID: 1747597250692270, guid: 0eed8fd38b332fe4d90de54f980ab091,
+    type: 2}
+  twos2OrbitalInnerPrefab: {fileID: 1927020270477870, guid: 71b3081d12a90d543ae329bca7f81a2b,
+    type: 2}
+  twos2OrbitalAnimatedPrefab: {fileID: 1585795922614502, guid: d2cdd9e24941c9240bf6ebd059a15604,
+    type: 2}
+  twopxOrbitalPrefab: {fileID: 1876069520093002, guid: bbb74b8326621dd448cda48d0565760a,
+    type: 2}
+  twopyOrbitalPrefab: {fileID: 1480818517029344, guid: d6f7ed8f5aa2b0048a9fc8280cb4e261,
+    type: 2}
   perimeterLightPrefabs: []
   perimeterLights: []
   sceneryPrefabs:
@@ -378,14 +392,14 @@ MonoBehaviour:
   - {fileID: 1331898900099506, guid: c915468154fc8a3428dcf9b9b57c7daa, type: 2}
   - {fileID: 1524907988932000, guid: a54cf613c3f9eea449a99d3866ac7c49, type: 2}
   - {fileID: 1436147044115578, guid: e6635c0ac562af640b2b1305830db024, type: 2}
-  - {fileID: 1317446923558974, guid: 507ec85fd6f1ac84ebc748d7c9502244, type: 2}
   - {fileID: 1363051577163660, guid: 4cc32350f567e0942b1a092f75df6f31, type: 2}
   - {fileID: 1390547461229804, guid: ed85f90dbbd06ff45b0deee84519cef0, type: 2}
   - {fileID: 1159873875741984, guid: 9165a5b4090bb27479025fbbe9559cdf, type: 2}
-  - {fileID: 1968812934670068, guid: 990eca5a1ac25f1469324d7ecf0b7b17, type: 2}
+  - {fileID: 1570655286452620, guid: 3a89c33bb9efd4943babad301961d229, type: 2}
+  - {fileID: 1098927237556742, guid: 9eebd9da79537264396eb296d1bb4cfc, type: 2}
+  - {fileID: 1272488284668914, guid: 8c393f4164a1c7c43ba3f33e171f1979, type: 2}
   - {fileID: 1855838171213308, guid: 1b069639e31f4654f8389d0715314cd6, type: 2}
   - {fileID: 1414197236913726, guid: 4afd95f2ff75c21488418e857f25d7fa, type: 2}
-  - {fileID: 1968812934670068, guid: 990eca5a1ac25f1469324d7ecf0b7b17, type: 2}
   - {fileID: 1568072197220890, guid: fca2773f256b04a4a954e8fc0cd7fd0f, type: 2}
   - {fileID: 1969669784553788, guid: cf087937d91e6cb4c9a5fb4dae2e0d31, type: 2}
   - {fileID: 1052095667824640, guid: adaf881ebef3b2c47aceb2b5f18e87d5, type: 2}
@@ -454,6 +468,8 @@ MonoBehaviour:
   - {fileID: 1234280438101374, guid: 4a829a7cb4ae8424aaa26d3c08a6f5ea, type: 2}
   - {fileID: 1514636934835052, guid: ba2cbe96758442947abd6cec47d391a8, type: 2}
   specialLights: []
+  neutronIsotopePrefabs: []
+  neutronIsotopes: []
 --- !u!4 &311692953
 Transform:
   m_ObjectHideFlags: 0
@@ -1036,9 +1052,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OrbitalDescription: {fileID: 214966906}
   electronController: {fileID: 1731386495}
-  numElectrons: 0
-  numProtons: 0
-  numNeutrons: 0
+  numElectrons: 6
+  numProtons: 6
+  numNeutrons: 6
 --- !u!4 &830017336
 Transform:
   m_ObjectHideFlags: 0

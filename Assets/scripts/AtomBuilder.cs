@@ -7,7 +7,7 @@ public class AtomBuilder : MonoBehaviour {
     const int MAX_NUM_ELECTRONS = 6;
     const int MAX_NUM_PROTONS   = 6;
     const int MAX_NUM_NEUTRONS  = 6;
-    // Do we want to be able to add/remove electrons, neutrons, AND protons?
+    // Do we want to be able to add/remove electrons, neutrons, AND protons? Ideally yes...
 
     GameObject _1s_orbital;
     GameObject _1s2_orbital_inner_shell;

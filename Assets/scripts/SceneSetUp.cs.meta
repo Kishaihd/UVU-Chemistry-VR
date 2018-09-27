@@ -4,9 +4,33 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
+  - eventSystemPrefab: {fileID: 1448803418637682, guid: bfa027d925e83ec43a865cb56f66ac3c,
+      type: 2}
   - centerLightPrefab: {fileID: 1706493671925316, guid: 72f7ecc26b6535c4cb5ff8ed955548e6,
       type: 2}
-  - playerPrefab: {fileID: 1674580235074180, guid: b72d0fd0ebe325040a86fa6a99ad25c8,
+  - playerPrefab: {fileID: 1181159481841454, guid: 9ca43fec02bf9044993c1bca627a16c7,
+      type: 2}
+  - objectivesMenuPrefab: {fileID: 1018645078733832, guid: 603579afaa6c0aa478ef65a7fefdb39d,
+      type: 2}
+  - periodicTablePrefab: {fileID: 1745372002144780, guid: 8b36dfac301dfe84882dfe959cbcf0e3,
+      type: 2}
+  - giantPencilPrefab: {fileID: 1938086160159996, guid: 87019b3e17353c949aa16c42d3944a19,
+      type: 2}
+  - giantPencilLightPrefab: {fileID: 1134523646217164, guid: 506a4f9446a91c044ab90d3ae2bdf9f3,
+      type: 2}
+  - C12atomcenterlightISOPrefab: {fileID: 1514636934835052, guid: ba2cbe96758442947abd6cec47d391a8,
+      type: 2}
+  - ones2OrbitalInnerPrefab: {fileID: 1946324391294996, guid: 39bb1b648781da9418d77a57c12ee5fc,
+      type: 2}
+  - ones2OrbitalAnimatedPrefab: {fileID: 1197465346111790, guid: 14b3a7f3f7e733e4ab44127a766376fc,
+      type: 2}
+  - twos2OrbitalInnerPrefab: {fileID: 1684332540508086, guid: 7d35e1cb5060bac4a9f7b71998f35998,
+      type: 2}
+  - twos2OrbitalAnimatedPrefab: {fileID: 1745365364425738, guid: d939c287f52c5a74ab84fc3a3048d958,
+      type: 2}
+  - twopxOrbitalPrefab: {fileID: 1708067972533470, guid: 4783596111ef0bc45b609dc6eb104a26,
+      type: 2}
+  - twopyOrbitalPrefab: {fileID: 1552395006624324, guid: 2765301639be8284bba70848a6ca6bed,
       type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
