@@ -19,6 +19,9 @@ public class AtomBuilder : MonoBehaviour {
     GameObject _2s2_orbital_animated;
     GameObject ProtonGroup;
     GameObject NeutronGroup;
+
+    public GameObject[] electronObjects;
+
     public Text OrbitalDescription;
     
     List<string> orbitalDescriptions = new List<string>();
@@ -37,16 +40,16 @@ public class AtomBuilder : MonoBehaviour {
         // Move 6 protons and 6 neutrons to the staging area.
         // Disable the [+]/[-] buttons for neutrons and protons.
         //_1s_orbital = GameObject.FindGameObjectWithTag("1sOrbital");
-        _1s_orbital =              GameObject.FindGameObjectWithTag("1sOrbital"); //.Find("1S_Orbital_1");
-        _1s2_orbital_inner_shell = GameObject.FindGameObjectWithTag("1s2OrbitalInnerShell"); //.Find("1S2_Orbital_Inner_Shell");
-        _1s2_orbital_animated =    GameObject.FindGameObjectWithTag("1s2OrbitalAnimated"); //.Find("1S2_Orbital_Animated");
-        _2px_orbital =             GameObject.FindGameObjectWithTag("2pxOrbital"); //.Find("2Px_Orbital_1");
-        _2py_orbital =             GameObject.FindGameObjectWithTag("2pyOrbital"); //.Find("2Py_Orbital_1");
-        _2s2_orbital_inner_shell = GameObject.FindGameObjectWithTag("2s2OrbitalInnerShell"); //.Find("2S2_Orbital_Inner_Shell");
-        _2s2_orbital_animated =    GameObject.FindGameObjectWithTag("2s2OrbitalAnimated"); //.Find("2S2_Orbital_Animated");
-        _2s_orbital =              GameObject.FindGameObjectWithTag("2sOrbital"); //.Find("2S_Orbital_1");
-        ProtonGroup =              GameObject.Find("Proton_Group_1");
-        NeutronGroup =             GameObject.Find("Neutron_Group_1");
+        _1s_orbital =              GameObject.Find("1S_Orbital");
+        _1s2_orbital_inner_shell = GameObject.Find("1S2_Orbital_Inner_Shell");
+        _1s2_orbital_animated =    GameObject.Find("1S2_Orbital_Animated");
+        _2px_orbital =             GameObject.Find("2Px_Orbital");
+        _2py_orbital =             GameObject.Find("2Py_Orbital");
+        _2s2_orbital_inner_shell = GameObject.Find("2S2_Orbital_Inner_Shell");
+        _2s2_orbital_animated =    GameObject.Find("2S2_Orbital_Animated");
+        _2s_orbital =              GameObject.Find("2S_Orbital");
+        //ProtonGroup =              GameObject.Find("Proton_Group");
+        //NeutronGroup =             GameObject.Find("Neutron_Group");
         //OrbitalDescription = GameObject.Find("Text_OrbitalDescription");
         Debug.Log("1s Orbital gameobject: ");
         Debug.Log(_1s_orbital);

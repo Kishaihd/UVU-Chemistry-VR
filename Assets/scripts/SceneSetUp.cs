@@ -55,13 +55,13 @@ public class SceneSetUp : MonoBehaviour
     public GameObject[] carbon12AtomGroupPrefabs;
     public GameObject[] carbon12s;
 
-    public GameObject[] electronGroupPrefabs;
+    public GameObject electronGroupPrefabs;
     public GameObject[] electrons;
 
-    public GameObject[] protonGroupPrefabs;
+    public GameObject protonGroupPrefabs;
     public GameObject[] protons;
 
-    public GameObject[] neutronGroupPrefabs;
+    public GameObject neutronGroupPrefabs;
     public GameObject[] neutrons;
 
     public GameObject[] specialLightPrefabs;
@@ -289,32 +289,35 @@ public class SceneSetUp : MonoBehaviour
 
     private void ElectronGroup()
     {
-        electrons = new GameObject[electronGroupPrefabs.Length];
-        for (int i = 0; i < electronGroupPrefabs.Length; i++)
-        {
-            electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-            //Debug.Log("electron object:" + i);
-        }
+        Instantiate(electronGroupPrefabs);
+        //electrons = new GameObject[electronGroupPrefabs.Length];
+        //for (int i = 0; i < electronGroupPrefabs.Length; i++)
+        //{
+        //    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+        //    //Debug.Log("electron object:" + i);
+        //}
     }
 
     private void ProtonGroup()
     {
-            protons = new GameObject[protonGroupPrefabs.Length];
-            for (int i = 0; i < protonGroupPrefabs.Length; i++)
-            {
-                protons[i] = Instantiate(protonGroupPrefabs[i]) as GameObject;
-                //Debug.Log("carbon 12 atom object:" + i);
-            }
+        Instantiate(protonGroupPrefabs);
+            //protons = new GameObject[protonGroupPrefabs.Length];
+            //for (int i = 0; i < protonGroupPrefabs.Length; i++)
+            //{
+            //    protons[i] = Instantiate(protonGroupPrefabs[i]) as GameObject;
+            //    //Debug.Log("carbon 12 atom object:" + i);
+            //}
     }
 
     private void NeutronGroup()
     {
-                neutrons = new GameObject[neutronGroupPrefabs.Length];
-                for (int i = 0; i < neutronGroupPrefabs.Length; i++)
-                {
-                    neutrons[i] = Instantiate(neutronGroupPrefabs[i]) as GameObject;
-                    //Debug.Log("carbon 12 atom object:" + i);
-                }
+        Instantiate(neutronGroupPrefabs);
+                //neutrons = new GameObject[neutronGroupPrefabs.Length];
+                //for (int i = 0; i < neutronGroupPrefabs.Length; i++)
+                //{
+                //    neutrons[i] = Instantiate(neutronGroupPrefabs[i]) as GameObject;
+                //    //Debug.Log("carbon 12 atom object:" + i);
+                //}
     }
 
     private void SpecialLights()
@@ -340,51 +343,51 @@ public class SceneSetUp : MonoBehaviour
     /// todo: Fix this later by renaming the variables.
     private void ElectronIsotopes()
     {
-        electrons = new GameObject[electronGroupPrefabs.Length];
-        for (int i = 0; i < electronGroupPrefabs.Length; i++)
-        {
-            Debug.Log(i);
-            switch (i)
-            {
-                case 0:
-                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                    Debug.Log(i);
-                    break;
-                case 1:
-                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                    //Instantiate(ones2OrbitalInnerPrefab, ones2OrbitalInnerPrefab.transform.position, ones2OrbitalInnerPrefab.transform.rotation);
-                    //Instantiate(ones2OrbitalAnimatedPrefab, ones2OrbitalAnimatedPrefab.transform.position, ones2OrbitalAnimatedPrefab.transform.rotation);
-                    WaitForSeconds(2);
-                    Debug.Log(i);
-                    break;
-                case 2:
-                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                    Debug.Log(i);
-                    break;
-                case 3:
-                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                    //Instantiate(twos2OrbitalInnerPrefab, twos2OrbitalInnerPrefab.transform.position, twos2OrbitalInnerPrefab.transform.rotation);
-                    //Instantiate(twos2OrbitalAnimatedPrefab, twos2OrbitalAnimatedPrefab.transform.position, twos2OrbitalAnimatedPrefab.transform.rotation);
-                    WaitForSeconds(2);
-                    Debug.Log(i);
-                    break;
-                case 4:
-                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                    //Instantiate(twopxOrbitalPrefab, twopxOrbitalPrefab.transform.position, twopxOrbitalPrefab.transform.rotation);
-                    WaitForSeconds(2);
-                    Debug.Log(i);
-                    break;
-                case 5:
-                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                    //Instantiate(twopyOrbitalPrefab, twopyOrbitalPrefab.transform.position, twopyOrbitalPrefab.transform.rotation);
-                    WaitForSeconds(2);
-                    Debug.Log(i);
-                    break;
-                default:
-                    Debug.Log(i);
-                    break;
-            }
-        }
+        //electrons = new GameObject[electronGroupPrefabs.Length];
+        //for (int i = 0; i < electronGroupPrefabs.Length; i++)
+        //{
+        //    Debug.Log(i);
+        //    switch (i)
+        //    {
+        //        case 0:
+        //            electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+        //            Debug.Log(i);
+        //            break;
+        //        case 1:
+        //            electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+        //            //Instantiate(ones2OrbitalInnerPrefab, ones2OrbitalInnerPrefab.transform.position, ones2OrbitalInnerPrefab.transform.rotation);
+        //            //Instantiate(ones2OrbitalAnimatedPrefab, ones2OrbitalAnimatedPrefab.transform.position, ones2OrbitalAnimatedPrefab.transform.rotation);
+        //            WaitForSeconds(2);
+        //            Debug.Log(i);
+        //            break;
+        //        case 2:
+        //            electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+        //            Debug.Log(i);
+        //            break;
+        //        case 3:
+        //            electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+        //            //Instantiate(twos2OrbitalInnerPrefab, twos2OrbitalInnerPrefab.transform.position, twos2OrbitalInnerPrefab.transform.rotation);
+        //            //Instantiate(twos2OrbitalAnimatedPrefab, twos2OrbitalAnimatedPrefab.transform.position, twos2OrbitalAnimatedPrefab.transform.rotation);
+        //            WaitForSeconds(2);
+        //            Debug.Log(i);
+        //            break;
+        //        case 4:
+        //            electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+        //            //Instantiate(twopxOrbitalPrefab, twopxOrbitalPrefab.transform.position, twopxOrbitalPrefab.transform.rotation);
+        //            WaitForSeconds(2);
+        //            Debug.Log(i);
+        //            break;
+        //        case 5:
+        //            electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+        //            //Instantiate(twopyOrbitalPrefab, twopyOrbitalPrefab.transform.position, twopyOrbitalPrefab.transform.rotation);
+        //            WaitForSeconds(2);
+        //            Debug.Log(i);
+        //            break;
+        //        default:
+        //            Debug.Log(i);
+        //            break;
+        //    }
+        //}
     }
 
     private IEnumerator WaitForSeconds(int n)
