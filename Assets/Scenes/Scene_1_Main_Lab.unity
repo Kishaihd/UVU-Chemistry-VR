@@ -272,23 +272,29 @@ MonoBehaviour:
     type: 2}
   periodicTablePrefab: {fileID: 1745372002144780, guid: 8b36dfac301dfe84882dfe959cbcf0e3,
     type: 2}
+  particleBuilderControlPanelPrefab: {fileID: 1155353103608544, guid: 207507ff360d1ac4381a982d01ece9b3,
+    type: 2}
   giantPencilPrefab: {fileID: 1938086160159996, guid: 87019b3e17353c949aa16c42d3944a19,
     type: 2}
   giantPencilLightPrefab: {fileID: 1134523646217164, guid: 506a4f9446a91c044ab90d3ae2bdf9f3,
     type: 2}
   C12atomcenterlightISOPrefab: {fileID: 1514636934835052, guid: ba2cbe96758442947abd6cec47d391a8,
     type: 2}
-  ones2OrbitalInnerPrefab: {fileID: 1927020270477870, guid: 71b3081d12a90d543ae329bca7f81a2b,
+  Orbital_1s_Prefab: {fileID: 1885646373236360, guid: 60613952360a3cf4abdddd2c06ccadb9,
     type: 2}
-  ones2OrbitalAnimatedPrefab: {fileID: 1747597250692270, guid: 0eed8fd38b332fe4d90de54f980ab091,
+  Orbital_2s_Prefab: {fileID: 1695758654141834, guid: 4c8f842624fd1524882953eb297d98a8,
     type: 2}
-  twos2OrbitalInnerPrefab: {fileID: 1542383108009994, guid: 51ecce6e06db4d749b0ac1bd2b97cecd,
+  Orbital_1s2_InnerPrefab: {fileID: 1946324391294996, guid: 39bb1b648781da9418d77a57c12ee5fc,
     type: 2}
-  twos2OrbitalAnimatedPrefab: {fileID: 1585795922614502, guid: d2cdd9e24941c9240bf6ebd059a15604,
+  Orbital_1s2_AnimatedPrefab: {fileID: 1197465346111790, guid: 14b3a7f3f7e733e4ab44127a766376fc,
     type: 2}
-  twopxOrbitalPrefab: {fileID: 1876069520093002, guid: bbb74b8326621dd448cda48d0565760a,
+  Orbital_2s2_InnerPrefab: {fileID: 1684332540508086, guid: 7d35e1cb5060bac4a9f7b71998f35998,
     type: 2}
-  twopyOrbitalPrefab: {fileID: 1480818517029344, guid: d6f7ed8f5aa2b0048a9fc8280cb4e261,
+  Orbital_2s2_AnimatedPrefab: {fileID: 1745365364425738, guid: d939c287f52c5a74ab84fc3a3048d958,
+    type: 2}
+  Orbital_2pX_Prefab: {fileID: 1708067972533470, guid: 4783596111ef0bc45b609dc6eb104a26,
+    type: 2}
+  Orbital_2pY_Prefab: {fileID: 1552395006624324, guid: 2765301639be8284bba70848a6ca6bed,
     type: 2}
   perimeterLightPrefabs:
   - {fileID: 1329839824566382, guid: a4a688bd412d093468628850a33b75b3, type: 2}
@@ -360,7 +366,7 @@ MonoBehaviour:
   - {fileID: 1565694128193924, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
   - {fileID: 1201527591507882, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
   - {fileID: 1201527591507882, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
-  - {fileID: 1723847521250806, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
+  - {fileID: 1192741932695164, guid: 257b64a07808f9c43aa0122322ead141, type: 2}
   carbons: []
   carbon12AtomGroupPrefabs: []
   carbon12s: []

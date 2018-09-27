@@ -21,19 +21,21 @@ public class SceneSetUp : MonoBehaviour
     public GameObject objectivesMenuPrefab;
     public GameObject periodicTablePrefab;
 
-    public GameObject particleBuilderMenuPrefab;
+    public GameObject particleBuilderControlPanelPrefab;
 
     public GameObject giantPencilPrefab;
     public GameObject giantPencilLightPrefab;
 
     public GameObject C12atomcenterlightISOPrefab;
 
-    public GameObject ones2OrbitalInnerPrefab;
-    public GameObject ones2OrbitalAnimatedPrefab;
-    public GameObject twos2OrbitalInnerPrefab;
-    public GameObject twos2OrbitalAnimatedPrefab;
-    public GameObject twopxOrbitalPrefab;
-    public GameObject twopyOrbitalPrefab;
+    public GameObject Orbital_1s_Prefab;
+    public GameObject Orbital_2s_Prefab;
+    public GameObject Orbital_1s2_InnerPrefab;
+    public GameObject Orbital_1s2_AnimatedPrefab;
+    public GameObject Orbital_2s2_InnerPrefab;
+    public GameObject Orbital_2s2_AnimatedPrefab;
+    public GameObject Orbital_2pX_Prefab;
+    public GameObject Orbital_2pY_Prefab;
 
     public GameObject[] perimeterLightPrefabs;
     public GameObject[] perimeterLights;
@@ -95,12 +97,12 @@ public class SceneSetUp : MonoBehaviour
 
         Screen();
 
-        //SceneUniqueItems();  ------Uncomment this once replacement section is debugged------
+        SceneUniqueItems();  
 
         //Debug.Log("Scene ID: ");
         Debug.Log(sceneID);    
 
-        // I want to replace all of these if statements with the ienumerator section below but it is getting errors----------------------------------------
+        // I want to replace all of these if statements with the switch section below but it is getting errors----------------------------------------
         //if (sceneID == 0)
         //{
         //    //Debug.Log("Scene ID: 0");
@@ -141,23 +143,22 @@ public class SceneSetUp : MonoBehaviour
     }
 
     ///* ---------- this section is the replacement for if statements above BUT it is getting c# errors that need to be fixed with ienumerator name and sceneid------
- void SceneUniqueItems()
+    void SceneUniqueItems()
     {
-        switch (SceneID)
+        Debug.Log("SceneUniqueItems() scene: ");
+        Debug.Log(sceneID.ToString());
+        switch (sceneID)
         {
             case 0:
                 PerimeterLight();
                 PeriodicTable();
                 break;
-
             case 1:
                 GiantPencil();
                 break;
-
             case 2:
                 CarbonLattice();
                 break;
-
             case 3:
                 Carbon12AtomGroup();
                 ElectronGroup();
@@ -165,7 +166,6 @@ public class SceneSetUp : MonoBehaviour
                 NeutronGroup();
                 SpecialLights();
                 break;
-
             case 4:
                 SpecialLights();
                 Instantiate(C12atomcenterlightISOPrefab, C12atomcenterlightISOPrefab.transform.position, C12atomcenterlightISOPrefab.transform.rotation);
@@ -173,14 +173,12 @@ public class SceneSetUp : MonoBehaviour
                 ElectronIsotopes();
                 NeutronIsotopes();
                 break;
-
             default:
                 Debug.Log(sceneID);
                 break;
         }
     }
-    //-----------end of replacement section that needs debugging help ------------*/
-
+    
     private void EventSystem()
     {
         Instantiate(eventSystemPrefab);
@@ -212,7 +210,7 @@ public class SceneSetUp : MonoBehaviour
 
     private void ParticleBuilder()
     {
-        Instantiate(particleBuilderMenuPrefab);
+        Instantiate(particleBuilderControlPanelPrefab);
     }
 
     private void PeriodicTable()
@@ -270,6 +268,7 @@ public class SceneSetUp : MonoBehaviour
 
     private void CarbonLattice()
     {
+        Debug.Log("CarbonLattice()");
         carbons = new GameObject[carbonLatticePrefabs.Length];
         for (int i = 0; i < carbonLatticePrefabs.Length; i++)
         {
@@ -338,59 +337,53 @@ public class SceneSetUp : MonoBehaviour
         }
     }
 
-   private void ElectronIsotopes()
+    /// todo: Fix this later by renaming the variables.
+    private void ElectronIsotopes()
     {
         electrons = new GameObject[electronGroupPrefabs.Length];
         for (int i = 0; i < electronGroupPrefabs.Length; i++)
         {
             Debug.Log(i);
-             switch (i)
-             {
-                    case 0:
-                        electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                        Debug.Log(i);
-                        break;
-
-                    case 1:
-                        electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                        Instantiate(ones2OrbitalInnerPrefab, ones2OrbitalInnerPrefab.transform.position, ones2OrbitalInnerPrefab.transform.rotation);
-                        Instantiate(ones2OrbitalAnimatedPrefab, ones2OrbitalAnimatedPrefab.transform.position, ones2OrbitalAnimatedPrefab.transform.rotation);
-                        WaitForSeconds(2);
-                        Debug.Log(i);
+            switch (i)
+            {
+                case 0:
+                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+                    Debug.Log(i);
                     break;
-
-                    case 2:
-                        electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                        Debug.Log(i);
+                case 1:
+                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+                    //Instantiate(ones2OrbitalInnerPrefab, ones2OrbitalInnerPrefab.transform.position, ones2OrbitalInnerPrefab.transform.rotation);
+                    //Instantiate(ones2OrbitalAnimatedPrefab, ones2OrbitalAnimatedPrefab.transform.position, ones2OrbitalAnimatedPrefab.transform.rotation);
+                    WaitForSeconds(2);
+                    Debug.Log(i);
                     break;
-                                               
-                    case 3:
-                        electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                        Instantiate(twos2OrbitalInnerPrefab, twos2OrbitalInnerPrefab.transform.position, twos2OrbitalInnerPrefab.transform.rotation);
-                        Instantiate(twos2OrbitalAnimatedPrefab, twos2OrbitalAnimatedPrefab.transform.position, twos2OrbitalAnimatedPrefab.transform.rotation);
-                        WaitForSeconds(2);
-                        Debug.Log(i);
+                case 2:
+                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+                    Debug.Log(i);
                     break;
-
-                    case 4:
-                        electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                        Instantiate(twopxOrbitalPrefab, twopxOrbitalPrefab.transform.position, twopxOrbitalPrefab.transform.rotation);
-                         WaitForSeconds(2);
-                        Debug.Log(i);
+                case 3:
+                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+                    //Instantiate(twos2OrbitalInnerPrefab, twos2OrbitalInnerPrefab.transform.position, twos2OrbitalInnerPrefab.transform.rotation);
+                    //Instantiate(twos2OrbitalAnimatedPrefab, twos2OrbitalAnimatedPrefab.transform.position, twos2OrbitalAnimatedPrefab.transform.rotation);
+                    WaitForSeconds(2);
+                    Debug.Log(i);
                     break;
-
-                    case 5:
-                        electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-                        Instantiate(twopyOrbitalPrefab, twopyOrbitalPrefab.transform.position, twopyOrbitalPrefab.transform.rotation);
-                        WaitForSeconds(2);
-                        Debug.Log(i);
+                case 4:
+                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+                    //Instantiate(twopxOrbitalPrefab, twopxOrbitalPrefab.transform.position, twopxOrbitalPrefab.transform.rotation);
+                    WaitForSeconds(2);
+                    Debug.Log(i);
                     break;
-
-                    default:
-                        Debug.Log(i);
+                case 5:
+                    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+                    //Instantiate(twopyOrbitalPrefab, twopyOrbitalPrefab.transform.position, twopyOrbitalPrefab.transform.rotation);
+                    WaitForSeconds(2);
+                    Debug.Log(i);
                     break;
-  
-             }
+                default:
+                    Debug.Log(i);
+                    break;
+            }
         }
     }
 
