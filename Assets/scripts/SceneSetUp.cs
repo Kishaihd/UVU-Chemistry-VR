@@ -28,14 +28,14 @@ public class SceneSetUp : MonoBehaviour
 
     public GameObject C12atomcenterlightISOPrefab;
 
-    public GameObject Orbital_1s_Prefab;
-    public GameObject Orbital_2s_Prefab;
-    public GameObject Orbital_1s2_InnerPrefab;
-    public GameObject Orbital_1s2_AnimatedPrefab;
-    public GameObject Orbital_2s2_InnerPrefab;
-    public GameObject Orbital_2s2_AnimatedPrefab;
-    public GameObject Orbital_2pX_Prefab;
-    public GameObject Orbital_2pY_Prefab;
+    //public GameObject Orbital_1s_Prefab;
+    //public GameObject Orbital_2s_Prefab;
+    //public GameObject Orbital_1s2_InnerPrefab;
+    //public GameObject Orbital_1s2_AnimatedPrefab;
+    //public GameObject Orbital_2s2_InnerPrefab;
+    //public GameObject Orbital_2s2_AnimatedPrefab;
+    //public GameObject Orbital_2pX_Prefab;
+    //public GameObject Orbital_2pY_Prefab;
 
     public GameObject[] perimeterLightPrefabs;
     public GameObject[] perimeterLights;
@@ -55,14 +55,14 @@ public class SceneSetUp : MonoBehaviour
     public GameObject[] carbon12AtomGroupPrefabs;
     public GameObject[] carbon12s;
 
-    public GameObject electronGroupPrefabs;
-    public GameObject[] electrons;
+    //public GameObject electronGroupPrefabs;
+    //public GameObject[] electrons;
 
-    public GameObject protonGroupPrefabs;
-    public GameObject[] protons;
+    //public GameObject protonGroupPrefabs;
+    //public GameObject[] protons;
 
-    public GameObject neutronGroupPrefabs;
-    public GameObject[] neutrons;
+    //public GameObject neutronGroupPrefabs;
+    //public GameObject[] neutrons;
 
     public GameObject[] specialLightPrefabs;
     public GameObject[] specialLights;
@@ -161,15 +161,15 @@ public class SceneSetUp : MonoBehaviour
                 break;
             case 3:
                 Carbon12AtomGroup();
-                ElectronGroup();
-                ProtonGroup();
-                NeutronGroup();
+                //ElectronGroup();
+                //ProtonGroup();
+                //NeutronGroup();
                 SpecialLights();
                 break;
             case 4:
                 SpecialLights();
                 Instantiate(C12atomcenterlightISOPrefab, C12atomcenterlightISOPrefab.transform.position, C12atomcenterlightISOPrefab.transform.rotation);
-                ProtonGroup();
+                //ProtonGroup();
                 ElectronIsotopes();
                 NeutronIsotopes();
                 break;
@@ -287,38 +287,38 @@ public class SceneSetUp : MonoBehaviour
         }
     }
 
-    private void ElectronGroup()
-    {
-        Instantiate(electronGroupPrefabs);
-        //electrons = new GameObject[electronGroupPrefabs.Length];
-        //for (int i = 0; i < electronGroupPrefabs.Length; i++)
-        //{
-        //    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
-        //    //Debug.Log("electron object:" + i);
-        //}
-    }
+    //private void ElectronGroup()
+    //{
+    //    Instantiate(electronGroupPrefabs);
+    //    //electrons = new GameObject[electronGroupPrefabs.Length];
+    //    //for (int i = 0; i < electronGroupPrefabs.Length; i++)
+    //    //{
+    //    //    electrons[i] = Instantiate(electronGroupPrefabs[i]) as GameObject;
+    //    //    //Debug.Log("electron object:" + i);
+    //    //}
+    //}
 
-    private void ProtonGroup()
-    {
-        Instantiate(protonGroupPrefabs);
-            //protons = new GameObject[protonGroupPrefabs.Length];
-            //for (int i = 0; i < protonGroupPrefabs.Length; i++)
-            //{
-            //    protons[i] = Instantiate(protonGroupPrefabs[i]) as GameObject;
-            //    //Debug.Log("carbon 12 atom object:" + i);
-            //}
-    }
+    //private void ProtonGroup()
+    //{
+    //    Instantiate(protonGroupPrefabs);
+    //        //protons = new GameObject[protonGroupPrefabs.Length];
+    //        //for (int i = 0; i < protonGroupPrefabs.Length; i++)
+    //        //{
+    //        //    protons[i] = Instantiate(protonGroupPrefabs[i]) as GameObject;
+    //        //    //Debug.Log("carbon 12 atom object:" + i);
+    //        //}
+    //}
 
-    private void NeutronGroup()
-    {
-        Instantiate(neutronGroupPrefabs);
-                //neutrons = new GameObject[neutronGroupPrefabs.Length];
-                //for (int i = 0; i < neutronGroupPrefabs.Length; i++)
-                //{
-                //    neutrons[i] = Instantiate(neutronGroupPrefabs[i]) as GameObject;
-                //    //Debug.Log("carbon 12 atom object:" + i);
-                //}
-    }
+    //private void NeutronGroup()
+    //{
+    //    Instantiate(neutronGroupPrefabs);
+    //            //neutrons = new GameObject[neutronGroupPrefabs.Length];
+    //            //for (int i = 0; i < neutronGroupPrefabs.Length; i++)
+    //            //{
+    //            //    neutrons[i] = Instantiate(neutronGroupPrefabs[i]) as GameObject;
+    //            //    //Debug.Log("carbon 12 atom object:" + i);
+    //            //}
+    //}
 
     private void SpecialLights()
     {

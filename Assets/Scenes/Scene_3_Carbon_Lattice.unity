@@ -204,22 +204,6 @@ MonoBehaviour:
     type: 2}
   C12atomcenterlightISOPrefab: {fileID: 1514636934835052, guid: ba2cbe96758442947abd6cec47d391a8,
     type: 2}
-  Orbital_1s_Prefab: {fileID: 1885646373236360, guid: 60613952360a3cf4abdddd2c06ccadb9,
-    type: 2}
-  Orbital_2s_Prefab: {fileID: 1695758654141834, guid: 4c8f842624fd1524882953eb297d98a8,
-    type: 2}
-  Orbital_1s2_InnerPrefab: {fileID: 1946324391294996, guid: 39bb1b648781da9418d77a57c12ee5fc,
-    type: 2}
-  Orbital_1s2_AnimatedPrefab: {fileID: 1197465346111790, guid: 14b3a7f3f7e733e4ab44127a766376fc,
-    type: 2}
-  Orbital_2s2_InnerPrefab: {fileID: 1684332540508086, guid: 7d35e1cb5060bac4a9f7b71998f35998,
-    type: 2}
-  Orbital_2s2_AnimatedPrefab: {fileID: 1745365364425738, guid: d939c287f52c5a74ab84fc3a3048d958,
-    type: 2}
-  Orbital_2pX_Prefab: {fileID: 1708067972533470, guid: 4783596111ef0bc45b609dc6eb104a26,
-    type: 2}
-  Orbital_2pY_Prefab: {fileID: 1552395006624324, guid: 2765301639be8284bba70848a6ca6bed,
-    type: 2}
   perimeterLightPrefabs: []
   perimeterLights: []
   sceneryPrefabs:
@@ -286,12 +270,6 @@ MonoBehaviour:
   carbons: []
   carbon12AtomGroupPrefabs: []
   carbon12s: []
-  electronGroupPrefabs: []
-  electrons: []
-  protonGroupPrefabs: []
-  protons: []
-  neutronGroupPrefabs: []
-  neutrons: []
   specialLightPrefabs: []
   specialLights: []
   neutronIsotopePrefabs: []
