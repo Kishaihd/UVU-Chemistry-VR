@@ -1742,6 +1742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4987955314158768}
+  - component: {fileID: 114469640967041036}
   m_Layer: 0
   m_Name: Dropdown Manager
   m_TagString: Untagged
@@ -4137,6 +4138,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'LEARNING OBJECTIVES:'
+--- !u!114 &114469640967041036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1805004248328404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c73fbb4e73450438bf781d56ec5f44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneObjectives: []
+  dropdown: {fileID: 114850512473401376}
 --- !u!114 &114470980950909382
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5942,19 +5956,11 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: Lesson 1 - Atomic Structure
-      m_Image: {fileID: 0}
-    - m_Text: Lesson 2 - Isotopes
-      m_Image: {fileID: 0}
-    - m_Text: Lesson 3 -VSEPR
-      m_Image: {fileID: 0}
-    - m_Text: Lesson 4 - Hybridization
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114469640967041036}
         m_MethodName: Dropdown_IndexChanged
         m_Mode: 0
         m_Arguments:
@@ -6113,7 +6119,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lesson 1 - Atomic Structure
+  m_Text: 
 --- !u!114 &114899193635466438
 MonoBehaviour:
   m_ObjectHideFlags: 1
